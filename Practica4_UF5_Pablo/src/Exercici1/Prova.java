@@ -32,6 +32,8 @@ public class Prova {
             llista.eliminarNom(1);
             System.out.println("Número de persones: " + llista.getNumeroElements());
             System.out.println(llista.imprimirNoms());
+            
+            System.out.println(llista.buscarNom("Mengano"));
 
         } catch (RepetitException e) {
             System.out.println(e.getMessage());
